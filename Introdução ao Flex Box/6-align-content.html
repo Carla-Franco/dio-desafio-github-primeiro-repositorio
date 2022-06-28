@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content</title>
+    <style>
+        .container {
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item {
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 2px solid black;
+        }
+
+        .stretch {
+            align-content: stretch;
+        }
+
+        .center {
+            align-content: center;
+        }
+
+        .flex-start {
+            align-content: flex-start;
+        }
+
+        .flex-end {
+            align-content: flex-end;
+        }
+
+        .space-around {
+            align-content: space-around;
+        }
+
+        .space-between {
+            align-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">Vai ser linda a reviravolta que Deus ira 
+            fazer na sua vida</div>
+        <div class="item">Investir em crescimento pessoal e 
+            profissional é o custo que garante saldo positivo a longo 
+            prazo. Invista em você!</div>
+        <div class="item">Você precisa parar de ficar triste.</div>
+        <div class="item">A sua próxima oportunidade pode estar lá.</div>
+        <div class="item">Seus modelos estão entregando o melhor 
+            possível?</div>
+        <div class="item">Ambientes robustos, escaláveis e com alta 
+            disponibilidade</div>
+        <div class="item">Seu futuro é criado pelo que você faz hoje e 
+            não amanhã.</div>
+    </div>
+    
+</body>
+</html>
